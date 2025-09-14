@@ -1,0 +1,69 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  
+}
+
+body {
+  background-color: black;
+}
+
+#icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+}
+
+#teaser{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#error{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 150px;
+}
+
+#error2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-top: 200px;
+}
+
+p {
+  text-align: center;
+  color: #262626;
+  padding: 15px;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+margin-top: auto;
+  
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
