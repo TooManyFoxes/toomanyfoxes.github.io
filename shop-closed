@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
 
+    <link rel="stylesheet" href="/page-style.css"/>
+    <script src="/script.js" defer></script>
+    <link rel="icon" href="/images/neko.svg" type="image/x-icon">
+
+    <title>404 Not Found | TooManyFoxes</title>
+    <a href="https://toomanyfoxes.org">
+      <img src="/images/neko.svg" id="icon">
+    </a>
+    <br>  
+
+  </head>
+  <body>
+     <div id="page-container">
+   <div id="content-wrap">
+     <a>
+    <img src="images/404-notfound.png" id="error">
+     </a>
+   </div>
+   <footer id="footer">
+         <p>
+           <img src="images/footer.png" id="error2">
+      toomanyfoxes.org | Website owned by @LotsOfFoxes on GameJolt | No Copyright.
+      </p>      
+       </footer>
+ </div>
+  </body>
+</html>
