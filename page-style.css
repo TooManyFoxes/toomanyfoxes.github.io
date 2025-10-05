@@ -68,6 +68,10 @@ footer {
   height: 2.5rem;
 }
 
+.centered {
+    text-align: center;
+}
+
 .grey {
     color: #262626;
     padding: 15px;
