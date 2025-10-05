@@ -4,6 +4,12 @@ html {
 
 body {
   background-color: black;
+  font-family: "Saira", sans-serif;
+}
+
+h1, h2, h3{
+    color: white;
+    text-align: center;
 }
 
 #icon{
@@ -38,14 +44,12 @@ body {
 
 p {
   text-align: center;
-  color: #262626;
-  padding: 15px;
 }
 
 footer {
-display: flex;
-flex-direction: column;
-margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
 }
 
 #page-container {
@@ -62,6 +66,16 @@ margin-top: auto;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+.grey {
+    color: #262626;
+    padding: 15px;
+}
+
+.white {
+    color: white;
+    padding: 15px;
 }
 
 .text {
