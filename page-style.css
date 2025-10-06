@@ -1,6 +1,5 @@
-html {
-  
-}
+html, body {padding:0; margin:0; height:100%;}
+footer{position: absolute; bottom: 0; left: 0; right: 0;}
 
 body {
   background-color: black;
@@ -46,10 +45,14 @@ p {
   text-align: center;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
+#footer{
+    display: block;
+    text-align: center;
+    font-size: 0.75em;
+    bottom:0;
+    width: 100%;
+    height: 30px;
+    position: fixed;
 }
 
 #page-container {
@@ -87,13 +90,30 @@ footer {
     text-align:center;
 }
 
-.mid-image {
-  width: 70%;
+.thumbnail {
+    text-align: center;
+    scale: 60%;
+}
+
+.game {
+}
+
+
+.half-scaled {
+    scale: 50%;
 }
 
 a {
     text-decoration:none;
     font-weight: bold;
+}
+
+.game-button {
+  border: dotted;
+  cursor: pointer;
+  text-align:center;
+  padding:12px;
+  width: 100px;
 }
 
 .menu-button {
