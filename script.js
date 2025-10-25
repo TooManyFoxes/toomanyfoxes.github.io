@@ -7,6 +7,7 @@ console.log(check);
 
 if (check == "chatgpt.com" || check == "triggeraiflag") {
     console.log("Check failed.");
+    window.location.replace("https://toomanyfoxes.org/ai");
 } else {
     console.log("Passed check.");
 }
